@@ -33,6 +33,11 @@ button{
     border-radius: 4px;
     font-weight: bold;
     padding: 0.8em 1.4em;
+    transition: box-shadow 0.15s;
+}
+
+.sign-up:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 .get-started{
@@ -40,7 +45,11 @@ button{
     color: white;
     font-weight: bold;
     border-radius: 4px;
-    
+    transition: background-color 0.15s;
+}
+
+.get-started:hover{
+    background-color: rgb(105, 66, 163);
 }
 
 .download{
@@ -48,14 +57,24 @@ button{
     color: rgb(108, 117, 125);
     border: 1px solid rgb(108, 117, 125);
     font-weight: bold;
+    transition: background-color 0.15s, color 0.15s;
 }
 
+.download:hover{
+    background-color: rgb(108, 117, 125);
+    color:white;
+}
 .apply{
     background-color: rgb(10, 102, 194);
     color: white;
     padding: 0.6rem 1.2rem;
     border-radius: 2em;
     font-weight: bold;
+    transition: background-color 0.15s;
+}
+
+.apply:hover{
+    background-color: rgb(0, 83, 167);
 }
 
 .save{
@@ -65,10 +84,21 @@ button{
     border-radius: 2em;
     font-weight: bold;
     padding: 0.6em 1.4em;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+
+.save:hover{
+    background-color: rgba(10, 102, 194, 0.205);
+    border-width: 2px;
 }
 
 a{
     color: rgb(0, 113, 133);
+    transition: color 0.15s;
+}
+
+a:hover{
+    color: rgb(231, 150, 27);
 }
 
 .title{
@@ -88,9 +118,20 @@ a{
     padding: 0.4rem 1.4rem;
 }
 
+.add-to-cart:hover{
+    background-color: rgb(206, 177, 32);
+}
+
 .buy-one{
     background-color: rgb(255, 164, 28);
     color: black;
     border-radius: 1.2rem; 
     padding: 0.4rem 1.4rem;
+}
+
+.buy-one:hover{
+    background-color: rgb(228, 137, 0);
+}
+.add-to-cart:active, .buy-one:active{
+    opacity: 0.7;
 }
