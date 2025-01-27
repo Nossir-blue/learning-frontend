@@ -1,0 +1,96 @@
+button{
+    padding: 0.6rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.uber{
+    background-color: black;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    transition: opacity 0.15s;
+}
+
+.uber:hover{
+    opacity: 0.7;
+}
+
+#cart{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 2em;
+    padding: 0.6em 4em;
+    transition: opacity 0.15s;
+}
+
+#cart:hover{
+    background-color: rgb(224, 194, 42);
+}
+
+.sign-up{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 0.8em 1.4em;
+}
+
+.get-started{
+    background-color: rgb(121,82, 179);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
+
+.download{
+    background-color: transparent;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    font-weight: bold;
+}
+
+.apply{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+.save{
+    background-color: transparent;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 2em;
+    font-weight: bold;
+    padding: 0.6em 1.4em;
+}
+
+a{
+    color: rgb(0, 113, 133);
+}
+
+.title{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.stock{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+
+.add-to-cart{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 1.2rem; 
+    padding: 0.4rem 1.4rem;
+}
+
+.buy-one{
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border-radius: 1.2rem; 
+    padding: 0.4rem 1.4rem;
+}
