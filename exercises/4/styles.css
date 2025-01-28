@@ -1,0 +1,69 @@
+p{
+    display: inline;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    margin: 2px;
+}
+p:active{
+    color: black;
+}
+
+button{
+    padding: 0.8em 0.6em;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.stretch{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 0.6em 1.2em;
+    cursor: pointer;
+    transition: padding 0.15s;
+}
+.stretch:hover{
+    padding: 1em 2em;
+}
+
+.click{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.6em 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.click:active{
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0 0 0;
+}
+
+.tgt{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.6em 1em;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    transition: margin-left 0.15s, margin-right 0.15s, padding 0.15s, background-color 0.15s;
+}
+.one:hover{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.6em 1.6em;
+    background-color: #b00b69;
+}
+.two:hover{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.6em 1.6em;
+    background-color: #b00b69;
+}
+.three:hover{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.6em 1.6em;
+    background-color: #b00b69;
+}
