@@ -1,0 +1,22 @@
+h1, p{
+    text-align: center;
+    font-family: Montserrat;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+span{
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+span:hover{
+    text-decoration: underline;
+    color: #b00b69;
+}
+
+span:active{
+    color: #420d1c;
+}
