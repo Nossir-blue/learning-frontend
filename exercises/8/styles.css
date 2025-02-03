@@ -1,0 +1,100 @@
+.name-text{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.thanks{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google{
+    width: 20em;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.search{
+    display: block;
+    padding: 0.6em 1em;
+    width: 30em;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.first-name, .last-name, .email{
+    padding: 0.8em;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 12px;
+    margin-right: 3px;
+}
+
+.email{
+    display: block;
+    width:27.5em;
+
+}
+.first-name:focus, .last-name:focus, .email:focus{
+    outline: none;
+}
+
+.sign-up{
+    background-color: rgb(48, 176, 250);
+    border: none;
+    width: 29em;
+    border-radius: 8px;
+    padding: 1em;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+
+.sign-up:hover{
+    background-color: #b00b69;
+}
+
+.sign-up:active{
+    background-color: #420d1c;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin:0;
+    margin-bottom: 0.8em;
+}
+
+.pickup, .destiny{
+    display: block;
+    border: none;
+    padding: 1em;
+    margin-bottom: 8px;
+    width: 21em;
+}
+
+.pickup:focus, .destiny:focus{
+    outline: none;
+}
+
+.request, .later{
+    padding: 0.8em 1em;
+    border: none;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.request{
+    background-color: #000000;
+    color: white;
+}
+
+.later{
+    padding: 0.7em 1em;
+}
