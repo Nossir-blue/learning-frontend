@@ -1,0 +1,47 @@
+.google{
+    width: 20em;
+    display: flex;
+    text-align: center;
+    display: inline-block;
+}
+.search{
+    padding: 0.6em 1em;
+    width: 30em;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.goImg{
+    text-align: center;
+}
+
+.sea{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 1.4em;
+}
+
+.b{
+    border: none;
+    padding: 0.6em 1em;
+    background-color: rgba(24, 26, 26, 0.6);
+    border-radius: 12px;
+    transition: background-color 0.15s;
+}
+
+.b:hover{
+    background-color: #b00b69;
+}
+
+.b:active{
+    background-color: #420d1c;
+}
