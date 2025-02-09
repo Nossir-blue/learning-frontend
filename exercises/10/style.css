@@ -1,0 +1,36 @@
+img{
+    width: 250px;
+    border-radius: 8px;
+}
+
+p{
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+}
+
+.image-container, .video-desc{
+    display: inline-block;
+}
+
+.video-desc{
+    vertical-align: top;
+    width: 342px;
+    height: 148px;
+    margin-left: 0.2em;
+}
+
+.title{
+    margin-top: 1em;
+    width: 342px;
+    font-weight: 700;
+    margin-bottom: 1.8em;
+}
+
+.channel, .stats{
+    font-size: 0.9em;
+    margin-bottom: 0.4em;
+}

@@ -1,0 +1,77 @@
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 360px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+p{
+    margin: 0;
+    font-family: Roboto;
+}
+
+.container{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.nlt{
+    width: 500px;
+    height: 100px;
+    box-shadow: 0 0 5px #b00b69;
+    margin-bottom: 0.8em;
+}
+
+.profile-pic, .profile-desc, .button{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-pic{
+    padding:1.06em;
+}
+
+.profile-desc{
+    width: 18em;
+    height: 6em;
+    
+}
+
+.oliver{
+    font-weight: 500;
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+}
+
+.cat, .popular{
+    margin-bottom: 0.5em;
+    color: rgb(96, 96, 96);
+    font-size: 0.9em;
+}
+
+.button{
+    width: 6.5em;
+    height: 6em;
+}
+
+.follow{
+    margin-left: 1.5em;
+    margin-top: 2.4em;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1em;
+    background-color:blueviolet;
+    transition: background-color 0.15s;
+    font-weight: 700;
+}
+
+.follow:hover{
+    background-color: #b00b69;
+}
+
+.follow:active{
+    background-color: #420d1c;
+}
