@@ -1,0 +1,67 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.search-bar{
+    border-radius: 20px;
+}
+.search-bar:focus{
+    outline: none;
+}
+
+.container{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.left-section, .right-section{
+    /* background-color: lightblue; */
+}
+
+.middle-section{
+    /* background-color: lightpink; */
+    flex: 1;
+    max-width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+.left-section{
+    width: 150px;
+    padding: 1em;
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    min-width: auto;
+}
+
+.download{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.6em 1em;
+    color: white;
+    transition: background-color 0.15s;
+}
+
+.download:hover{
+    background-color: rgb(91, 21, 156);
+}
+
+.download:active{
+    background-color: #b00b69;
+}

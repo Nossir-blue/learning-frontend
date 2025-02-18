@@ -4,6 +4,12 @@ p {
   margin-bottom: 0;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
 .mutuals {
   display: grid;
   grid-template-columns: 30px 1fr; /* Ajustei para 30px para dar mais espaço à imagem */
@@ -22,7 +28,6 @@ p {
 .profile {
   width: 200px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  display: inline-block;
   margin-right: 15px;
 }
 
