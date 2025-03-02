@@ -1,0 +1,21 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+p{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 300px;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+}
+

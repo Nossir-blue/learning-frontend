@@ -1,0 +1,37 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin: 0;
+}
+.container{
+    display: flex;
+    border: 1px solid red;
+    width: 300px;
+}
+
+p{
+    background-color: black;
+    color: white;
+}
+.rows{
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+.row1{
+    background-color: transparent;
+    color: black;
+    align-self: start;
+}
+
+.ro{
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    margin-bottom: 20px;
+}
