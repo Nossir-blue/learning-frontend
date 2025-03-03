@@ -7,10 +7,37 @@ body{
     margin: 0;
 }
 
+p{
+    margin: 0;
+    
+}
 .container{
     width: 26%;
-    height: 16vh;
-    border: 1px solid red;
+    height: 40vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    color: rgb(94, 94, 94);
+}
+
+.container-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.img-container{
+    display: flex;
+    width: 22%;
+    height: 78px;
+    justify-content: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 4px;
+    object-fit: cover;
 }
 
 .inboxes{
@@ -22,4 +49,26 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1;
+}
+
+.title, .subtitle{
+    font-weight: bold;
+}
+
+.title{
+    font-size: 1.2rem;
+}
+
+.subtitle{
+    font-size: 0.9rem;
+}
+.time{
+    margin-left: 30px;
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.description{
+    font-size: 0.8rem;
 }
