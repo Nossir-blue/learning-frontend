@@ -1,0 +1,15 @@
+*, *::before, *::after{ box-sizing: border-box;}
+
+body{
+    margin: 0;
+    height: 3000px;
+}
+
+div{
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    bottom: 0;
+    right: 0;
+    background-color: gray;
+}

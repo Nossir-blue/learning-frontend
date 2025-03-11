@@ -1,0 +1,32 @@
+body{
+    height: 3000px;
+    margin: 0;
+}
+
+.blacked{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #b00b69;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s, background 0.15s;
+}
+
+.blacked:hover{
+    color: #b00b69;
+    background-color: black;
+}
+
+.blacked:active{
+    color: #b00b;
+    background-color: rgb(22, 22, 22);
+}
